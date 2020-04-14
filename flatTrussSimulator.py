@@ -181,10 +181,6 @@ def checkCollapse():
         for i in range(len(uExpanded)):
             if(abs(uExpanded[i]) > 0.02):
                 print("Displacement greater than 20mm found: " + str(uExpanded[i]))
-
-        for i in lenghts:
-            if i > 0.11:
-                print("Bar size greater than 110mm found: " + str(i))
     else:
         print("Cannot check if structure collapses. Iterative method not had converged. Please check structure size and choose the adequated method.")
 
