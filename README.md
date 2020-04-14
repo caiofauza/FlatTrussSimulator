@@ -1,4 +1,3 @@
-# FlatTrussSimulation
 ## Software for Simulation of Flat Trusses in python
 
 This software was developed for a subject called heat transfers and solids mechanics, from the computer engineering course at Insper. The main idea was to input the characteristics of a structure such as a bridge, using a table and to generate support reactions, nodal displacements, deformations, internal forces and internal stresses as an output using the finite element method.
