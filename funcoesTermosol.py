@@ -126,16 +126,16 @@ def importa(entradaNome):
 
 def geraSaida(nome,Ft,Ut,Epsi,Fi,Ti):
     nome = nome + '.txt'
-    f = open("saida.txt","w+")
-    f.write('Reacoes de apoio [N]\n')
+    f = open("output.txt","w+")
+    f.write('Support reactions [N]\n')
     f.write(str(Ft))
-    f.write('\n\nDeslocamentos [m]\n')
+    f.write('\n\nNodal displacements [m]\n')
     f.write(str(Ut))
-    f.write('\n\nDeformacoes []\n')
+    f.write('\n\nDeformations []\n')
     f.write(str(Epsi))
-    f.write('\n\nForcas internas [N]\n')
+    f.write('\n\nInternal forces [N]\n')
     f.write(str(Fi))
-    f.write('\n\nTensoes internas [Pa]\n')
+    f.write('\n\nInternal stresses [Pa]\n')
     f.write(str(Ti))
     f.close()
     
