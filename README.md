@@ -21,6 +21,7 @@ The result for the "context.xlsx" structure is saved in the "output.txt" file an
 
 The software was developed by Caio Fauza, Pedro Paulo Telho and Luiz Vitor Germanos.
 
+
 ## Structure collapse
   
 In the software there is a function to analyze the collapse of the structure, which was defined by:
