@@ -20,3 +20,4 @@ The result for the "context.xlsx" structure is saved in the "output.txt" file an
 
 
 
+The software was developed by Caio Fauza, Pedro Paulo Telho and Luiz Vitor Germanos.
