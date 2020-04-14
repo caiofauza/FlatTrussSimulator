@@ -20,3 +20,15 @@ The result for the "context.xlsx" structure is saved in the "output.txt" file an
 
 
 The software was developed by Caio Fauza, Pedro Paulo Telho and Luiz Vitor Germanos.
+
+## Structure collapse
+  
+In the software there is a function to analyze the collapse of the structure, which was defined by:
+
+ - Some member has exceeded the tensile strength of 18 MPa
+ - Some member exceeded the compressive tensile strength of 18 MPa
+ - Some member had a deformation greater than 5%
+ - Some node moved more than 20mm in X or Y
+ 
+ You can use the function by calling:
+ > checkCollapse()
